@@ -1,124 +1,70 @@
-# Real-Time Groundwater Resource Evaluation System - Frontend
+# Getting Started with Create React App
 
-## Patent Overview
-This frontend application is built for the **Real-Time Groundwater Resource Evaluation System** patent, which describes an innovative platform for monitoring and managing groundwater resources across India using a network of 5,260+ Digital Water Level Recorder (DWLR) stations.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Key Features
+## Available Scripts
 
-### 🎯 Core Capabilities
-- **Real-time Monitoring**: Live tracking of water levels from DWLR stations nationwide
-- **AI-Powered Analytics**: Machine learning models for trend analysis and predictions
-- **Sustainability Assessment**: Dynamic Groundwater Sustainability Index (GSI) calculation
-- **Alert System**: Automated anomaly detection with multi-channel notifications
-- **Policy Support**: Tools for water security reports and conservation strategy simulation
+In the project directory, you can run:
 
-### 📊 Dashboard Components
+### `npm start`
 
-#### 1. Main Dashboard
-- **Key Metrics**: Active stations, average water levels, sustainability index, active alerts
-- **Water Level Trends**: Historical data with AI predictions
-- **Recharge Analysis**: Natural vs artificial recharge visualization
-- **Regional Overview**: Station health across all regions of India
-- **Hydro-Socioeconomic Factors**: Analysis of depletion causes
-- **Energy-Cost Restoration Model**: Resource requirements for aquifer restoration
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-#### 2. Station Monitor
-- **Interactive Map**: Visual representation of DWLR station locations
-- **Station List**: Detailed table with water levels, status, and trends
-- **Station Details**: Individual station information and metrics
-- **Search & Filter**: Find stations by name or region
-- **Real-time Updates**: Automatic refresh of station data
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-#### 3. Alert System
-- **Alert Categories**: Critical, Warning, and Info alerts
-- **Real-time Notifications**: Immediate updates on water level anomalies
-- **Alert Configuration**: Customizable thresholds and notification settings
-- **Alert Statistics**: Overview of current alert distribution
+### `npm test`
 
-#### 4. Policy & Research Tools
-- **Report Generator**: Create comprehensive water security reports
-- **Conservation Simulator**: Model different conservation strategies
-- **Policy Impact Analysis**: Evaluate proposed water policies
-- **Data Export**: Download data for research purposes
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Technical Implementation
+### `npm run build`
 
-### Technologies Used
-- **React 18**: Modern React with hooks for state management
-- **Recharts**: Advanced charting library for data visualization
-- **Tailwind CSS**: Utility-first CSS framework for styling
-- **Lucide Icons**: Modern icon library for UI elements
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Data Visualization Types
-- Area charts for water level trends
-- Bar charts for recharge analysis
-- Radial charts for sustainability index
-- Pie charts for depletion factors
-- Progress bars for restoration metrics
-- Interactive tables with sorting and filtering
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Files Included
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. **groundwater-monitoring-frontend.jsx** - React component file with full application logic
-2. **groundwater-monitoring-system.html** - Standalone HTML file that can be opened directly in browser
-3. **README.md** - This documentation file
+### `npm run eject`
 
-## How to Use
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Option 1: Standalone HTML (Quickest)
-1. Download `groundwater-monitoring-system.html`
-2. Open it directly in any modern web browser
-3. No installation or setup required!
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Option 2: React Component
-1. Use `groundwater-monitoring-frontend.jsx` in your React application
-2. Install dependencies:
-   ```bash
-   npm install react recharts lucide-react
-   npm install -D tailwindcss
-   ```
-3. Import and use the component in your React app
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## Patent Alignment
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-This frontend implementation directly supports the patent's key innovations:
+## Learn More
 
-✅ **Automated Data Acquisition** - Real-time data display from DWLR stations
-✅ **AI-Driven Analysis** - Predictive charts and trend visualization
-✅ **Sustainability Computation** - Dynamic GSI calculation and display
-✅ **Hydro-Socioeconomic Analysis** - Depletion factor visualization
-✅ **Interactive Dashboard** - Web-based monitoring interface
-✅ **Alert System** - Real-time notifications and anomaly detection
-✅ **Energy-Cost Modeling** - Restoration resource calculations
-✅ **Policy Support** - Research and decision-making tools
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Commercial Applications
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-The system is designed for deployment with potential commercial partners including:
-- Waterlab Solutions Pvt. Ltd.
-- Vassar Labs
-- Geovale Hydro
-- Antea Group India
-- The Ground Water Company
-- Xylem Inc.
+### Code Splitting
 
-## Future Enhancements
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Potential additions to align with patent specifications:
-- Integration with actual DWLR API endpoints
-- Mobile application development
-- SMS/Email notification backend
-- Advanced ML model integration
-- Historical data analysis tools
-- Multi-language support for pan-India deployment
-- Export functionality for government reports
+### Analyzing the Bundle Size
 
-## License
-Patent Pending - Lovely Professional University
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Support
-For questions about the frontend implementation or patent details, please refer to the complete patent document.
+### Making a Progressive Web App
 
----
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-*This frontend application demonstrates the full capabilities described in the Real-Time Groundwater Resource Evaluation System patent, providing a modern, user-friendly interface for groundwater monitoring and management.*
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
